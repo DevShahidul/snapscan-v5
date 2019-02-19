@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="174px" height="194px" viewBox="0 0 174 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icn-download-brand-guide</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,0 L124,-1.77635684e-15 C129.522847,-2.79088747e-15 134,4.4771525 134,10 L134,144 C134,149.522847 129.522847,154 124,154 L10,154 C4.4771525,154 6.76353751e-16,149.522847 0,144 L0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="path-1"></path>
+        <filter x="-28.0%" y="-14.6%" width="156.0%" height="148.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.231372549   0 0 0 0 0.466666667   0 0 0 0 0.733333333  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-11.1%" y="-8.9%" width="122.2%" height="117.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.149019608   0 0 0 0 0.223529412   0 0 0 0 0.262745098  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SnapScan-Assets" transform="translate(-407.000000, -5585.000000)">
+            <g id="icn-download-brand-guide" transform="translate(427.000000, 5590.000000)">
+                <g id="Rectangle-Copy-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Download-to-pay" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500" line-spacing="20" fill="#4A90E2">
+                    <tspan x="27.807" y="134">Brand Guide</tspan>
+                </text>
+                <g id="Group-16">
+                    <g transform="translate(27.000000, 14.000000)">
+                        <g id="Group-12-Copy" filter="url(#filter-3)" fill="#FFE682">
+                            <path d="M3.5999999,90 L68.4000001,90 C70.3882251,90 72,88.3882251 72,86.4000001 L72,3.5999999 C72,1.61177486 70.3882251,7.88581939e-17 68.4000001,4.4408921e-16 L3.5999999,0 C1.61177486,3.65231016e-16 2.00601866e-16,1.61177486 4.4408921e-16,3.5999999 L0,86.4000001 C2.43487344e-16,88.3882251 1.61177486,90 3.5999999,90 Z" id="Fill-1"></path>
+                        </g>
+                        <g id="Group-67" transform="translate(6.300000, 7.200000)" stroke="#AC963E" stroke-width="0.76049998">
+                            <polygon id="Stroke-1" points="0.3807 21.19752 59.5161 21.19752 59.5161 6.04062 0.3807 6.04062"></polygon>
+                            <polygon id="Stroke-3" points="0.3807 44.74602 28.0539 44.74602 28.0539 25.17372 0.3807 25.17372"></polygon>
+                            <polyline id="Stroke-4" points="4.8177 3.41577 3.2445 1.84257 4.8177 0.26937"></polyline>
+                            <path d="M0.38052,0.25254 L0.38052,3.43134" id="Stroke-5"></path>
+                            <polyline id="Stroke-6" points="55.07883 0.26928 56.65203 1.84248 55.07883 3.41568"></polyline>
+                            <path d="M59.51592,3.43161 L59.51592,0.25281" id="Stroke-7"></path>
+                            <path d="M3.57597,1.84248 L56.43207,1.84248" id="Stroke-9"></path>
+                            <polyline id="Stroke-10" points="56.96667 31.01427 58.53987 29.44107 60.11307 31.01427"></polyline>
+                            <path d="M60.12963,26.57754 L56.94993,26.57754" id="Stroke-12"></path>
+                            <path d="M53.96697,26.57754 L31.80717,26.57754" id="Stroke-15"></path>
+                            <polyline id="Stroke-16" points="60.11316 38.66697 58.53996 40.24017 56.96676 38.66697"></polyline>
+                            <path d="M56.9502,43.1037 L60.1299,43.1037" id="Stroke-18"></path>
+                            <path d="M58.53996,29.77245 L58.53996,40.02075" id="Stroke-21"></path>
+                            <polyline id="Stroke-22" points="55.03815 72.5013 56.61135 74.0745 55.03815 75.6477"></polyline>
+                            <path d="M59.47533,75.66363 L59.47533,72.48483" id="Stroke-24"></path>
+                            <polyline id="Stroke-26" points="36.24471 75.64779 34.67151 74.07459 36.24471 72.50139"></polyline>
+                            <path d="M31.80735,72.48465 L31.80735,75.66345" id="Stroke-28"></path>
+                            <path d="M56.27979,74.07459 L34.89039,74.07459" id="Stroke-31"></path>
+                            <polyline id="Stroke-32" points="23.61105 72.5013 25.18425 74.0745 23.61105 75.6477"></polyline>
+                            <path d="M28.0485,75.66363 L28.0485,72.48483" id="Stroke-34"></path>
+                            <polyline id="Stroke-36" points="4.8177 75.64779 3.2445 74.07459 4.8177 72.50139"></polyline>
+                            <path d="M0.38052,72.48465 L0.38052,75.66345" id="Stroke-38"></path>
+                            <path d="M24.85296,74.07459 L3.46356,74.07459" id="Stroke-41"></path>
+                            <path d="M7.28523,11.51316 L53.31933,11.51316" id="Stroke-42"></path>
+                            <path d="M15.56469,15.61941 L46.23219,15.61941" id="Stroke-43"></path>
+                            <path d="M53.96697,30.70935 L31.80717,30.70935" id="Stroke-44"></path>
+                            <path d="M53.96697,34.84107 L31.80717,34.84107" id="Stroke-45"></path>
+                            <path d="M53.96697,38.97189 L31.80717,38.97189" id="Stroke-46"></path>
+                            <path d="M46.35828,43.1037 L31.80708,43.1037" id="Stroke-47"></path>
+                            <g id="Group-66" transform="translate(0.000000, 28.216620)">
+                                <path d="M27.96714,15.07338 L22.30614,9.75258 C21.81744,9.29178 21.04884,9.31248 20.58444,9.79758 L18.74214,11.71818 C18.25344,12.22938 17.43444,12.22038 16.95654,11.69928 L10.86444,5.06538 C10.38294,4.53978 9.55584,4.53618 9.06894,5.05638 L0.46674,14.25798" id="Stroke-48"></path>
+                                <path d="M24.22764,2.76696 C24.22764,4.01526 23.21604,5.02686 21.96864,5.02686 C20.72034,5.02686 19.70874,4.01526 19.70874,2.76696 C19.70874,1.51956 20.72034,0.50796 21.96864,0.50796 C23.21604,0.50796 24.22764,1.51956 24.22764,2.76696 Z" id="Stroke-50"></path>
+                                <polygon id="Stroke-52" points="31.8069 41.1705 59.4801 41.1705 59.4801 21.5982 31.8069 21.5982"></polygon>
+                                <polyline id="Stroke-54" points="25.53966 27.43956 27.11286 25.86546 28.68606 27.43956"></polyline>
+                                <path d="M28.70262,23.00202 L25.52292,23.00202" id="Stroke-55"></path>
+                                <path d="M22.53996,23.00202 L0.38016,23.00202" id="Stroke-56"></path>
+                                <polyline id="Stroke-57" points="28.68615 35.09136 27.11295 36.66456 25.53975 35.09136"></polyline>
+                                <path d="M25.52319,39.5289 L28.70289,39.5289" id="Stroke-58"></path>
+                                <path d="M27.11286,26.19765 L27.11286,36.44595" id="Stroke-59"></path>
+                                <path d="M22.53996,27.13374 L0.38016,27.13374" id="Stroke-60"></path>
+                                <path d="M22.53996,31.26546 L0.38016,31.26546" id="Stroke-61"></path>
+                                <path d="M22.53996,35.39718 L0.38016,35.39718" id="Stroke-62"></path>
+                                <path d="M14.93127,39.5289 L0.38097,39.5289" id="Stroke-63"></path>
+                                <path d="M59.30766,39.71439 L53.64756,34.39359 C53.15796,33.93369 52.38936,33.95349 51.92496,34.43859 L50.08266,36.35919 C49.59396,36.87039 48.77586,36.86139 48.29706,36.34119 L42.20586,29.70639 C41.72346,29.18079 40.89636,29.17719 40.40946,29.69829 L31.80726,38.89899" id="Stroke-64"></path>
+                                <path d="M55.56834,27.40878 C55.56834,28.65618 54.55674,29.66778 53.30934,29.66778 C52.06104,29.66778 51.04944,28.65618 51.04944,27.40878 C51.04944,26.16048 52.06104,25.14888 53.30934,25.14888 C54.55674,25.14888 55.56834,26.16048 55.56834,27.40878 Z" id="Stroke-65"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

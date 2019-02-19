@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icn-play-blue</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SnapScan-Assets" transform="translate(-957.000000, -287.000000)" fill="#4A90E2" fill-rule="nonzero">
+            <path d="M965.146666,289.740443 L971.145089,300.9375 C971.262449,301.156573 971.179995,301.429305 970.960923,301.546666 C970.895565,301.581679 970.822569,301.6 970.748423,301.6 L958.751576,301.6 C958.503048,301.6 958.301576,301.398528 958.301576,301.15 C958.301576,301.075854 958.319897,301.002858 958.354911,300.9375 L964.353334,289.740443 C964.470694,289.521371 964.743427,289.438917 964.962499,289.556277 C965.0407,289.59817 965.104773,289.662243 965.146666,289.740443 Z" id="Triangle" transform="translate(964.750000, 295.300000) rotate(-270.000000) translate(-964.750000, -295.300000) "></path>
+        </g>
+    </g>
+</svg>

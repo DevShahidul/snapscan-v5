@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="174px" height="194px" viewBox="0 0 174 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icn-download-videos</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,0 L124,-1.77635684e-15 C129.522847,-2.79088747e-15 134,4.4771525 134,10 L134,144 C134,149.522847 129.522847,154 124,154 L10,154 C4.4771525,154 6.76353751e-16,149.522847 0,144 L0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="path-1"></path>
+        <filter x="-28.0%" y="-14.6%" width="156.0%" height="148.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.231372549   0 0 0 0 0.466666667   0 0 0 0 0.733333333  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-8.0%" y="-10.1%" width="116.0%" height="120.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.149019608   0 0 0 0 0.223529412   0 0 0 0 0.262745098  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SnapScan-Assets" transform="translate(-755.000000, -5585.000000)">
+            <g id="icn-download-videos" transform="translate(775.000000, 5590.000000)">
+                <g id="Rectangle-Copy-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Download-to-pay" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500" line-spacing="20" fill="#4A90E2">
+                    <tspan x="46.321" y="134">Videos</tspan>
+                </text>
+                <g id="Group-18">
+                    <g transform="translate(17.000000, 17.142857)">
+                        <g id="Group-13" filter="url(#filter-3)">
+                            <rect id="Rectangle-3" fill="#FFE1D5" fill-rule="nonzero" x="0" y="0" width="100" height="79.4805195" rx="5"></rect>
+                            <path d="M0,67.5584416 L100,67.5584416 L100,74.4805195 C100,77.2419432 97.7614237,79.4805195 95,79.4805195 L5,79.4805195 C2.23857625,79.4805195 3.38176876e-16,77.2419432 0,74.4805195 L0,67.5584416 Z" id="Rectangle-3" fill-opacity="0.352383379" fill="#FF9A71" fill-rule="nonzero"></path>
+                            <g id="Group-2" transform="translate(28.000000, 13.909091)">
+                                <ellipse id="Oval-2" fill="#FF9A71" cx="22.5" cy="22.3538961" rx="22.5" ry="22.3538961"></ellipse>
+                                <polygon id="Triangle" fill="#FFFFFF" fill-rule="nonzero" transform="translate(23.500000, 22.353896) rotate(-270.000000) translate(-23.500000, -22.353896) " points="23.5 16.8538961 28.9642857 27.8538961 18.0357143 27.8538961"></polygon>
+                            </g>
+                        </g>
+                        <g id="Group-17" transform="translate(5.000000, 69.545455)">
+                            <rect id="Rectangle-8" fill="#FFE1D5" x="0" y="2.98051948" width="90" height="1.98701299" rx="0.993506494"></rect>
+                            <rect id="Rectangle-8" fill="#FF9A71" x="0" y="2.98051948" width="70" height="1.98701299" rx="0.993506494"></rect>
+                            <ellipse id="Oval-5" fill="#FFFFFF" cx="72" cy="3.97402597" rx="4" ry="3.97402597"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

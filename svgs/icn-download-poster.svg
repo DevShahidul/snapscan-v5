@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="174px" height="194px" viewBox="0 0 174 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icn-download-poster</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,0 L124,-1.77635684e-15 C129.522847,-2.79088747e-15 134,4.4771525 134,10 L134,144 C134,149.522847 129.522847,154 124,154 L10,154 C4.4771525,154 6.76353751e-16,149.522847 0,144 L0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="path-1"></path>
+        <filter x="-28.0%" y="-14.6%" width="156.0%" height="148.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.231372549   0 0 0 0 0.466666667   0 0 0 0 0.733333333  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-11.1%" y="-8.9%" width="122.2%" height="117.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.149019608   0 0 0 0 0.223529412   0 0 0 0 0.262745098  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SnapScan-Assets" transform="translate(-59.000000, -5585.000000)">
+            <g id="icn-download-poster" transform="translate(79.000000, 5590.000000)">
+                <g id="Rectangle-Copy-6">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Poster" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500" line-spacing="20" fill="#4A90E2">
+                    <tspan x="47.473" y="134">Poster</tspan>
+                </text>
+                <g id="Group-12">
+                    <g filter="url(#filter-3)" transform="translate(27.000000, 14.000000)">
+                        <path d="M3.5999999,90 L68.4000001,90 C70.3882251,90 72,88.3882251 72,86.4000001 L72,3.5999999 C72,1.61177486 70.3882251,7.88581939e-17 68.4000001,4.4408921e-16 L3.5999999,0 C1.61177486,3.65231016e-16 2.00601866e-16,1.61177486 4.4408921e-16,3.5999999 L0,86.4000001 C2.43487344e-16,88.3882251 1.61177486,90 3.5999999,90 Z" id="Fill-1" fill="#BBD8F9"></path>
+                        <g id="Group-11" transform="translate(9.900000, 9.900000)">
+                            <path d="M52.70571,52.06572 L52.70571,43.89012 L41.91291,33.74532 C40.97961,32.86782 39.51441,32.90652 38.62881,33.82992 L35.11791,37.49472 C34.18461,38.46762 32.62401,38.45052 31.71231,37.45872 L20.09781,24.80832 C19.17801,23.80662 17.60121,23.79942 16.67241,24.79212 L0.27171,42.33492 L0.27171,52.06572 L52.70571,52.06572 Z" id="Fill-2" fill="#3B77BC"></path>
+                            <path d="M45.57582,20.42685 C45.57582,22.80645 43.64712,24.73425 41.26842,24.73425 C38.88972,24.73425 36.96102,22.80645 36.96102,20.42685 C36.96102,18.04725 38.88972,16.11945 41.26842,16.11945 C43.64712,16.11945 45.57582,18.04725 45.57582,20.42685" id="Fill-4" fill="#FFFFFF"></path>
+                            <polygon id="Fill-6" fill="#3B77BC" opacity="0.429910714" points="0.2718 58.4019 52.7058 58.4019 52.7058 55.6443 0.2718 55.6443"></polygon>
+                            <polygon id="Fill-8" fill="#3B77BC" points="0.2718 12.3669 52.7058 12.3669 52.7058 0.8325 0.2718 0.8325"></polygon>
+                            <polygon id="Fill-9" fill="#3B77BC" opacity="0.429910714" points="0.2718 64.6434 52.7058 64.6434 52.7058 61.8867 0.2718 61.8867"></polygon>
+                            <polygon id="Fill-10" fill="#3B77BC" opacity="0.429910714" points="0.2718 70.8867 52.7058 70.8867 52.7058 68.13 0.2718 68.13"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

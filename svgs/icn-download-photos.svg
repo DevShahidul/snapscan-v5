@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="174px" height="194px" viewBox="0 0 174 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icn-download-photos</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,0 L124,-1.77635684e-15 C129.522847,-2.79088747e-15 134,4.4771525 134,10 L134,144 C134,149.522847 129.522847,154 124,154 L10,154 C4.4771525,154 6.76353751e-16,149.522847 0,144 L0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="path-1"></path>
+        <filter x="-28.0%" y="-14.6%" width="156.0%" height="148.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.231372549   0 0 0 0 0.466666667   0 0 0 0 0.733333333  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-9.5%" y="-11.3%" width="119.0%" height="122.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.149019608   0 0 0 0 0.223529412   0 0 0 0 0.262745098  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SnapScan-Assets" transform="translate(-581.000000, -5585.000000)">
+            <g id="icn-download-photos" transform="translate(601.000000, 5590.000000)">
+                <g id="Rectangle-Copy-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Download-to-pay" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500" line-spacing="20" fill="#4A90E2">
+                    <tspan x="45.209" y="134">Photos</tspan>
+                </text>
+                <g id="Group-11">
+                    <g filter="url(#filter-3)" transform="translate(25.000000, 24.000000)">
+                        <path d="M77.7881081,70.0950989 L6.1827027,70.0950989 C3.02594595,70.0950989 0.466486486,67.5232463 0.466486486,64.3502989 L0.466486486,6.34465684 C0.466486486,3.17261474 3.02594595,0.600762105 6.1827027,0.600762105 L77.7881081,0.600762105 C80.9448649,0.600762105 83.5043243,3.17261474 83.5043243,6.34465684 L83.5043243,64.3502989 C83.5043243,67.5232463 80.9448649,70.0950989 77.7881081,70.0950989" id="Fill-1" fill="#A7DA97"></path>
+                        <path d="M83.5045045,64.3505705 L83.5045045,57.0849284 L66.4126126,40.9404653 C64.9351351,39.5454547 62.6144144,39.6061074 61.2117117,41.07716 L55.6504505,46.9070547 C54.1738739,48.45596 51.7018018,48.4297074 50.2585586,46.8500232 L31.863964,26.7187811 C30.4081081,25.1255179 27.9108108,25.1137495 26.4405405,26.6943389 L0.466666667,54.6108442 L0.466666667,64.3505705 C0.466666667,67.5235179 3.02612613,70.0953705 6.18288288,70.0953705 L77.7882883,70.0953705 C80.945045,70.0953705 83.5045045,67.5235179 83.5045045,64.3505705" id="Fill-6" fill="#61B446"></path>
+                        <path d="M72.2130631,19.7468968 C72.2130631,23.5336126 69.159009,26.6015495 65.3914414,26.6015495 C61.6238739,26.6015495 58.5698198,23.5336126 58.5698198,19.7468968 C58.5698198,15.9610863 61.6238739,12.8922442 65.3914414,12.8922442 C69.159009,12.8922442 72.2130631,15.9610863 72.2130631,19.7468968" id="Fill-9" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icn-social-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SnapScan-Assets" transform="translate(-84.000000, -165.000000)">
+            <g id="icn-social-facebook" transform="translate(84.000000, 165.000000)">
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="22" cy="22" r="22"></circle>
+                <path d="M20.2083333,32 L20.2083333,22.1601562 L17,22.1601562 L17,18.25 L20.2083333,18.25 L20.2083333,15.15625 C20.2083333,13.5234375 20.652778,12.2558594 21.5416667,11.3535156 C22.4305553,10.4511719 23.6111113,10 25.0833333,10 C26.277778,10 27.25,10.0572914 28,10.171875 L28,13.6523438 L26,13.6523438 C25.25,13.6523438 24.7361113,13.8242188 24.4583333,14.1679688 C24.2361113,14.4544273 24.125,14.9127602 24.125,15.5429688 L24.125,18.25 L27.6666667,18.25 L27.1666667,22.1601562 L24.125,22.1601562 L24.125,32 L20.2083333,32 Z" id="" fill="#4A90E2"></path>
+            </g>
+        </g>
+    </g>
+</svg>
