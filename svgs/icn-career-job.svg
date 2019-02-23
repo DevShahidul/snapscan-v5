@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icn-career-job</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SnapScan-Assets" transform="translate(-1157.000000, -263.000000)" stroke="#9AABB4" stroke-width="2">
+            <g id="icons/set/suitcase" transform="translate(1158.000000, 264.000000)">
+                <path d="M18,19 L2,19 C1.447,19 1,18.553 1,18 L1,11 L19,11 L19,18 C19,18.553 18.553,19 18,19 Z" id="Stroke-1"></path>
+                <path d="M19,11 L1,11 L1,7 C1,6.447 1.447,6 2,6 L18,6 C18.553,6 19,6.447 19,7 L19,11 Z" id="Stroke-3"></path>
+                <path d="M13,2 L7,2 C6.447,2 6,2.447 6,3 L6,6 L14,6 L14,3 C14,2.447 13.553,2 13,2 Z" id="Stroke-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

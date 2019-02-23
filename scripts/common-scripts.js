@@ -22,6 +22,19 @@
             $(this).parent().removeClass('focus');
         });
         
+        // Begin input common focus and blur for value.
+        $('.form-group input, textarea, textarea.form-control').keyup(function(){
+            $(this).addClass('value-added')
+        })
+
+
+        $('.form-group input, textarea, textarea.form-control').blur(function(){
+            if(!this.value){this.value=this.defaultValue;}
+            if(this.value==this.defaultValue){
+                $(this).removeClass('value-added')
+            }
+        });
+        
         // Ends input common focus and blur for value.
 		
         // Phone nav click function 
@@ -37,6 +50,10 @@
         $(".navbar-toggler").click(function(){
             $("body").toggleClass("shown")
         })
+        
+        if($(".how-snapscan-work").length){
+            $("body").addClass("snapscan-landing")
+        }
        
 		
 	})// End ready function.
