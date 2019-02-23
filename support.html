@@ -44,7 +44,7 @@
                             <a href="#"><img src="svgs/icn-mobile-apple.svg" alt=""></a>
                             <a href="#"><img src="svgs/icn-mobile-play.svg" alt=""></a>
                         </div>
-                        <a href="#" class="btn small">Sign up</a>
+                        <a href="#" class="btn small" data-toggle="modal" data-target="#exampleModalCenter">Sign up</a>
                         <a class="btn small mobi" href="#">Sign in</a>
                     </div>
                 </nav>
@@ -53,7 +53,7 @@
 
             <!-- Beginning hero section -->
             <section class="hero-section support-hero">
-                <div class="hero-bg" style="background-image: url(svgs/SnapScan-web-support.svg);">
+                <div class="hero-bg blue-bg" style="background-image: url(svgs/SnapScan-web-support.svg);">
                     <img class="shape media retina" src="svgs/curve-desktop-1440.svg" alt="">
                 </div>
                 <div class="container my-custom-containter">
@@ -100,7 +100,7 @@
                                             <div class="check"></div>
                                         </div>
                                         <div class="radio-btn">
-                                            <input type="radio" id="user" name="selector">
+                                            <input type="radio" checked="checked" id="user" name="selector">
                                             <label for="user">User</label>
                                             <div class="check"></div>
                                         </div>
@@ -118,7 +118,7 @@
             <section class="have-question-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 text-center">
+                        <div class="col-12">
                             <h3>Have questions about SnapScan?</h3>
                             
                             <!-- Nav tabs -->
@@ -138,29 +138,37 @@
                                         <div class="col-lg-4">
                                             <ul class="list-wrapper text-left">
                                                 <li>
-                                                    <div class="icon"><img src="svgs/icn-toggle-check.svg" alt=""><img src="svgs/icn-toggle-check-active.svg" alt="" class="active"></div>
-                                                    <a href="#" title="Getting Started">Getting Started</a>
+                                                    <a href="#" title="Getting Started">
+                                                       <div class="icon"><img src="svgs/icn-toggle-check.svg" alt=""><img src="svgs/icn-toggle-check-active.svg" alt="" class="active"></div>
+                                                        Getting Started
+                                                    </a>
                                                 </li>
                                                 <li>
-                                                    <div class="icon"><img src="svgs/icn-toggle-mobile.svg" alt=""><img src="svgs/icn-toggle-mobile-active.svg" alt="" class="active"></div>
-                                                    <a href="#" title="Using SnapScan">Using SnapScan</a>
+                                                    <a href="#" title="Using SnapScan">
+                                                       <div class="icon"><img src="svgs/icn-toggle-mobile.svg" alt=""><img src="svgs/icn-toggle-mobile-active.svg" alt="" class="active"></div>
+                                                        Using SnapScan
+                                                    </a>
                                                 </li>
                                                 <li>
-                                                    <div class="icon"><img src="svgs/icn-toggle-lock.svg" alt=""><img src="svgs/icn-toggle-lock-active.svg" alt="" class="active"></div>
-                                                    <a href="#" title="Safety & Security">Safety &amp; Security</a>
+                                                    <a href="#" title="Safety & Security">
+                                                       <div class="icon"><img src="svgs/icn-toggle-lock.svg" alt=""><img src="svgs/icn-toggle-lock-active.svg" alt="" class="active"></div>
+                                                        Safety &amp; Security
+                                                    </a>
                                                 </li>
                                                 <li>
-                                                    <div class="icon"><img src="svgs/icn-toggle-pay.svg" alt=""><img src="svgs/icn-toggle-pay-active.svg" alt="" class="active"></div>
-                                                    <a href="#" title="Cards">Cards</a>
+                                                    <a href="#" title="Cards">
+                                                       <div class="icon"><img src="svgs/icn-toggle-pay.svg" alt=""><img src="svgs/icn-toggle-pay-active.svg" alt="" class="active"></div>
+                                                        Cards
+                                                    </a>
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="col-lg-8">
+                                        <div class="col-lg-8 accordion-wrap">
                                             <div id="accordion" role="tablist">
                                                 <div class="card">
                                                     <div class="card-header" role="tab" id="headingOne">
                                                       <h6 class="mb-0">
-                                                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                        <a href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                                           How do I download SnapScan? 
                                                         </a>
                                                       </h6>
@@ -176,22 +184,24 @@
                                                 <div class="card">
                                                     <div class="card-header" role="tab" id="headingTwo">
                                                       <h6 class="mb-0">
-                                                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                        <a data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                           How do I pay with SnapScan? 
                                                         </a>
                                                       </h6>
                                                     </div>
-                                                    <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                                                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
                                                       <div class="card-body">
-                                                        Open the SnapScan app and tap on "Scan" to scan the SnapCode (a QR code, or square barcode) displayed in the shop, at the point of sale, on the invoice or website where you want to pay. This identifies the shop and prompts you to enter the amount you wish to pay. <br> 
-                                                        Enter your PIN or use TouchID on your Apple device to secure and complete the transaction. The merchant will receive a notification via SMS or on their point of sale system to confirm that the payment has been made.
+                                                        	<ol class="list-group">
+                                                        	    <li>Open the SnapScan app and tap on "Scan" to scan the SnapCode (a QR code, or square barcode) displayed in the shop, at the point of sale, on the invoice or website where you want to pay. This identifies the shop and prompts you to enter the amount you wish to pay.</li>
+                                                        	    <li>Enter your PIN or use TouchID on your Apple device to secure and complete the transaction. The merchant will receive a notification via SMS or on their point of sale system to confirm that the payment has been made.</li>
+                                                        	</ol>	
                                                       </div>
                                                     </div>
                                                 </div>
                                                 <div class="card">
                                                     <div class="card-header" role="tab" id="headingThree">
                                                         <h6 class="mb-0">
-                                                            <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            <a data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                               What if I'm not with Standard Bank? 
                                                             </a>
                                                         </h6>
@@ -222,7 +232,7 @@
                                                 <div class="card">
                                                     <div class="card-header" role="tab" id="headingFive">
                                                       <h6 class="mb-0">
-                                                        <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                        <a data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                                           How do I pay with SnapScan? 
                                                         </a>
                                                       </h6>
@@ -237,7 +247,7 @@
                                                 <div class="card">
                                                     <div class="card-header" role="tab" id="headingSix">
                                                         <h6 class="mb-0">
-                                                            <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                            <a data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                                               What if I'm not with Standard Bank? 
                                                             </a>
                                                         </h6>
@@ -268,7 +278,7 @@
                                                 <div class="card">
                                                     <div class="card-header" role="tab" id="headingEight">
                                                       <h6 class="mb-0">
-                                                        <a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                        <a data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                                           How do I pay with SnapScan? 
                                                         </a>
                                                       </h6>
@@ -283,7 +293,7 @@
                                                 <div class="card">
                                                     <div class="card-header" role="tab" id="headingNine">
                                                         <h6 class="mb-0">
-                                                            <a class="collapsed" data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                            <a data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                                               What if I'm not with Standard Bank? 
                                                             </a>
                                                         </h6>
@@ -304,35 +314,43 @@
                                         <div class="col-lg-4">
                                             <ul class="list-wrapper text-left">
                                                 <li>
-                                                    <div class="icon"><img src="svgs/icn-toggle-check.svg" alt=""><img src="svgs/icn-toggle-check-active.svg" alt="" class="active"></div>
-                                                    <a href="#" title="Getting Started">Getting Started</a>
+                                                    <a href="#" title="Getting Started">
+                                                       <div class="icon"><img src="svgs/icn-toggle-check.svg" alt=""><img src="svgs/icn-toggle-check-active.svg" alt="" class="active"></div>
+                                                        Getting Started
+                                                    </a>
                                                 </li>
                                                 <li>
-                                                    <div class="icon"><img src="svgs/icn-toggle-mobile.svg" alt=""><img src="svgs/icn-toggle-mobile-active.svg" alt="" class="active"></div>
-                                                    <a href="#" title="Using SnapScan">Using SnapScan</a>
+                                                    <a href="#" title="Using SnapScan">
+                                                       <div class="icon"><img src="svgs/icn-toggle-mobile.svg" alt=""><img src="svgs/icn-toggle-mobile-active.svg" alt="" class="active"></div>
+                                                        Using SnapScan
+                                                    </a>
                                                 </li>
                                                 <li>
-                                                    <div class="icon"><img src="svgs/icn-toggle-lock.svg" alt=""><img src="svgs/icn-toggle-lock-active.svg" alt="" class="active"></div>
-                                                    <a href="#" title="Safety & Security">Safety &amp; Security</a>
+                                                    <a href="#" title="Safety & Security">
+                                                       <div class="icon"><img src="svgs/icn-toggle-lock.svg" alt=""><img src="svgs/icn-toggle-lock-active.svg" alt="" class="active"></div>
+                                                        Safety &amp; Security
+                                                    </a>
                                                 </li>
                                                 <li>
-                                                    <div class="icon"><img src="svgs/icn-toggle-pay.svg" alt=""><img src="svgs/icn-toggle-pay-active.svg" alt="" class="active"></div>
-                                                    <a href="#" title="Cards">Cards</a>
+                                                    <a href="#" title="Cards">
+                                                       <div class="icon"><img src="svgs/icn-toggle-pay.svg" alt=""><img src="svgs/icn-toggle-pay-active.svg" alt="" class="active"></div>
+                                                        Cards
+                                                    </a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-lg-8">
-                                            <div id="accordion" role="tablist">
+                                            <div id="accordion2" role="tablist">
                                                 <div class="card">
-                                                    <div class="card-header" role="tab" id="headingOne">
+                                                    <div class="card-header" role="tab" id="headingOne2">
                                                       <h6 class="mb-0">
-                                                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                        <a data-toggle="collapse" href="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2">
                                                           How do I download SnapScan? 
                                                         </a>
                                                       </h6>
                                                     </div>
 
-                                                    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                                                    <div id="collapseOne2" class="collapse" role="tabpanel" aria-labelledby="headingOne2" data-parent="#accordion2">
                                                       <div class="card-body">
                                                         Open the SnapScan app and tap on "Scan" to scan the SnapCode (a QR code, or square barcode) displayed in the shop, at the point of sale, on the invoice or website where you want to pay. This identifies the shop and prompts you to enter the amount you wish to pay. <br> 
                                                         Enter your PIN or use TouchID on your Apple device to secure and complete the transaction. The merchant will receive a notification via SMS or on their point of sale system to confirm that the payment has been made.
@@ -340,14 +358,14 @@
                                                     </div>
                                                 </div>
                                                 <div class="card">
-                                                    <div class="card-header" role="tab" id="headingTwo">
+                                                    <div class="card-header" role="tab" id="headingTwo2">
                                                       <h6 class="mb-0">
-                                                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                        <a data-toggle="collapse" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
                                                           How do I pay with SnapScan? 
                                                         </a>
                                                       </h6>
                                                     </div>
-                                                    <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                                                    <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2" data-parent="#accordion2">
                                                       <div class="card-body">
                                                         Open the SnapScan app and tap on "Scan" to scan the SnapCode (a QR code, or square barcode) displayed in the shop, at the point of sale, on the invoice or website where you want to pay. This identifies the shop and prompts you to enter the amount you wish to pay. <br> 
                                                         Enter your PIN or use TouchID on your Apple device to secure and complete the transaction. The merchant will receive a notification via SMS or on their point of sale system to confirm that the payment has been made.
@@ -355,14 +373,14 @@
                                                     </div>
                                                 </div>
                                                 <div class="card">
-                                                    <div class="card-header" role="tab" id="headingThree">
+                                                    <div class="card-header" role="tab" id="headingThree2">
                                                         <h6 class="mb-0">
-                                                            <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            <a data-toggle="collapse" href="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
                                                               What if I'm not with Standard Bank? 
                                                             </a>
                                                         </h6>
                                                     </div>
-                                                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                                                    <div id="collapseThree2" class="collapse" role="tabpanel" aria-labelledby="headingThree2" data-parent="#accordion2">
                                                         <div class="card-body">
                                                             Open the SnapScan app and tap on "Scan" to scan the SnapCode (a QR code, or square barcode) displayed in the shop, at the point of sale, on the invoice or website where you want to pay. This identifies the shop and prompts you to enter the amount you wish to pay. <br> 
                                                             Enter your PIN or use TouchID on your Apple device to secure and complete the transaction. The merchant will receive a notification via SMS or on their point of sale system to confirm that the payment has been made.
@@ -370,15 +388,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="card">
-                                                    <div class="card-header" role="tab" id="headingFour">
+                                                    <div class="card-header" role="tab" id="headingFour2">
                                                       <h6 class="mb-0">
-                                                        <a data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                        <a data-toggle="collapse" href="#collapseFour2" aria-expanded="false" aria-controls="collapseFour2">
                                                           Will it work on my phone? 
                                                         </a>
                                                       </h6>
                                                     </div>
 
-                                                    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+                                                    <div id="collapseFour2" class="collapse" role="tabpanel" aria-labelledby="headingFour2" data-parent="#accordion2">
                                                       <div class="card-body">
                                                         Open the SnapScan app and tap on "Scan" to scan the SnapCode (a QR code, or square barcode) displayed in the shop, at the point of sale, on the invoice or website where you want to pay. This identifies the shop and prompts you to enter the amount you wish to pay. <br> 
                                                         Enter your PIN or use TouchID on your Apple device to secure and complete the transaction. The merchant will receive a notification via SMS or on their point of sale system to confirm that the payment has been made.
@@ -386,14 +404,14 @@
                                                     </div>
                                                 </div>
                                                 <div class="card">
-                                                    <div class="card-header" role="tab" id="headingFive">
+                                                    <div class="card-header" role="tab" id="headingFive2">
                                                       <h6 class="mb-0">
-                                                        <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                        <a data-toggle="collapse" href="#collapseFive2" aria-expanded="false" aria-controls="collapseFive2">
                                                           How do I pay with SnapScan? 
                                                         </a>
                                                       </h6>
                                                     </div>
-                                                    <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
+                                                    <div id="collapseFive2" class="collapse" role="tabpanel" aria-labelledby="headingFive2" data-parent="#accordion2">
                                                       <div class="card-body">
                                                         Open the SnapScan app and tap on "Scan" to scan the SnapCode (a QR code, or square barcode) displayed in the shop, at the point of sale, on the invoice or website where you want to pay. This identifies the shop and prompts you to enter the amount you wish to pay. <br> 
                                                         Enter your PIN or use TouchID on your Apple device to secure and complete the transaction. The merchant will receive a notification via SMS or on their point of sale system to confirm that the payment has been made.
@@ -401,14 +419,14 @@
                                                     </div>
                                                 </div>
                                                 <div class="card">
-                                                    <div class="card-header" role="tab" id="headingSix">
+                                                    <div class="card-header" role="tab" id="headingSix2">
                                                         <h6 class="mb-0">
-                                                            <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                            <a data-toggle="collapse" href="#collapseSix2" aria-expanded="false" aria-controls="collapseSix2">
                                                               What if I'm not with Standard Bank? 
                                                             </a>
                                                         </h6>
                                                     </div>
-                                                    <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion">
+                                                    <div id="collapseSix2" class="collapse" role="tabpanel" aria-labelledby="headingSix2" data-parent="#accordion2">
                                                         <div class="card-body">
                                                             Open the SnapScan app and tap on "Scan" to scan the SnapCode (a QR code, or square barcode) displayed in the shop, at the point of sale, on the invoice or website where you want to pay. This identifies the shop and prompts you to enter the amount you wish to pay. <br> 
                                                             Enter your PIN or use TouchID on your Apple device to secure and complete the transaction. The merchant will receive a notification via SMS or on their point of sale system to confirm that the payment has been made.
@@ -416,15 +434,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="card">
-                                                    <div class="card-header" role="tab" id="headingSeven">
+                                                    <div class="card-header" role="tab" id="headingSeven2">
                                                       <h6 class="mb-0">
-                                                        <a data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                                        <a data-toggle="collapse" href="#collapseSeven2" aria-expanded="false" aria-controls="collapseSeven2">
                                                           How do I download SnapScan? 
                                                         </a>
                                                       </h6>
                                                     </div>
 
-                                                    <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven" data-parent="#accordion">
+                                                    <div id="collapseSeven2" class="collapse" role="tabpanel" aria-labelledby="headingSeven2" data-parent="#accordion2">
                                                       <div class="card-body">
                                                         Open the SnapScan app and tap on "Scan" to scan the SnapCode (a QR code, or square barcode) displayed in the shop, at the point of sale, on the invoice or website where you want to pay. This identifies the shop and prompts you to enter the amount you wish to pay. <br> 
                                                         Enter your PIN or use TouchID on your Apple device to secure and complete the transaction. The merchant will receive a notification via SMS or on their point of sale system to confirm that the payment has been made.
@@ -432,14 +450,14 @@
                                                     </div>
                                                 </div>
                                                 <div class="card">
-                                                    <div class="card-header" role="tab" id="headingEight">
+                                                    <div class="card-header" role="tab" id="headingEight2">
                                                       <h6 class="mb-0">
-                                                        <a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                        <a data-toggle="collapse" href="#collapseEight2" aria-expanded="false" aria-controls="collapseEight2">
                                                           How do I pay with SnapScan? 
                                                         </a>
                                                       </h6>
                                                     </div>
-                                                    <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight" data-parent="#accordion">
+                                                    <div id="collapseEight2" class="collapse" role="tabpanel" aria-labelledby="headingEight2" data-parent="#accordion2">
                                                       <div class="card-body">
                                                         Open the SnapScan app and tap on "Scan" to scan the SnapCode (a QR code, or square barcode) displayed in the shop, at the point of sale, on the invoice or website where you want to pay. This identifies the shop and prompts you to enter the amount you wish to pay. <br> 
                                                         Enter your PIN or use TouchID on your Apple device to secure and complete the transaction. The merchant will receive a notification via SMS or on their point of sale system to confirm that the payment has been made.
@@ -447,14 +465,14 @@
                                                     </div>
                                                 </div>
                                                 <div class="card">
-                                                    <div class="card-header" role="tab" id="headingNine">
+                                                    <div class="card-header" role="tab" id="headingNine2">
                                                         <h6 class="mb-0">
-                                                            <a class="collapsed" data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                            <a data-toggle="collapse" href="#collapseNine2" aria-expanded="false" aria-controls="collapseNine2">
                                                               What if I'm not with Standard Bank? 
                                                             </a>
                                                         </h6>
                                                     </div>
-                                                    <div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine" data-parent="#accordion">
+                                                    <div id="collapseNine2" class="collapse" role="tabpanel" aria-labelledby="headingNine2" data-parent="#accordion2">
                                                         <div class="card-body">
                                                             Open the SnapScan app and tap on "Scan" to scan the SnapCode (a QR code, or square barcode) displayed in the shop, at the point of sale, on the invoice or website where you want to pay. This identifies the shop and prompts you to enter the amount you wish to pay. <br> 
                                                             Enter your PIN or use TouchID on your Apple device to secure and complete the transaction. The merchant will receive a notification via SMS or on their point of sale system to confirm that the payment has been made.
@@ -474,7 +492,7 @@
             
             <!-- Beginning Download our resources section -->
             <section class="download-our-resources blue-bg">
-                <div class="continer">
+                <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="title-wrap">
@@ -482,7 +500,7 @@
                                 <p>Here are a few resources to help explain how mobile payments work, so you don’t have to.</p>
                             </div>
                         </div>
-                        <div class="col-12 downloadable-contents text-lg-center">
+                        <div class="col-12 downloadable-contents text-md-center">
                             <a href="#"><img src="svgs/icn-download-poster.svg" alt=""></a>
                             <a href="#"><img src="svgs/icn-download-logo.svg" alt=""></a>
                             <a href="#"><img src="svgs/icn-download-brand-guide.svg" alt=""></a>
@@ -493,6 +511,39 @@
                 </div>
             </section>
             <!-- //End Download our resources section -->
+            
+            <!-- Signup modal -->
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div class="modal fade sign-up-modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="row">
+                        <div class="col-lg-6 col-12 modal-figure" style="background-image: url(svgs/img-sign-up-illustration.svg)">&nbsp;</div>
+                        <div class="col-12 col-lg-6">
+                            <div class="signup-form-wrap">
+                                <img src="svgs/logo-snapscan.svg" alt="">
+                                <h4>Sign up for a better way to get paid</h4>
+                                <p><em class="action-blue-color">PS</em> There's a once-off admin fee of R250 per store.</p>
+                                <div class="form-group">
+                                  <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" class="form-control" placeholder="Email Address">
+                                </div>
+                                <div class="form-group">
+                                  <input type="tel" class="form-control" placeholder="Contact Number">
+                                </div>
+                                <button class="btn btn-primary" type="submit">Sign up your Business</button>
+                                <p class="small-text text-center">By submitting this form I agree to SnapScan’s <a href="#" class="action-blue-color">Terms.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- //End Signup modal -->
 
 
             <!-- Beginning footer section -->
