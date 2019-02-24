@@ -104,12 +104,12 @@
             <section class="promo-section">
                 <div class="container my-custom-containter">
                     <div class="row no-gutters">
-                        <div class="col-md-5 col-12 content offset-md-1">
+                        <div class="col-md-5 col-12 align-self-center content offset-md-1">
                             <h3>SnapScan works for your Business</h3>
                             <p>Whether you do business in store, online, at markets or any other premises, we’ve got the perfect SnapScan payment solution for you. Our customised solutions also integrate seamlessly into your existing point-of-sale, e-commerce and invoicing systems for simple payments in a snap!</p>
                         </div>
-                        <div class="col-md-6 col-12 thumbnail text-right content-thumb">
-                            <img src="svgs/img-mer-vid.svg" alt="">
+                        <div class="col-md-6 col-12 align-self-center thumbnail text-right content-thumb">
+                            <a href="#"><img src="svgs/img-mer-vid.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -201,7 +201,7 @@
                     </div>
                     <div class="row card-caousel-section">
                         <div class="col-md-3 col-sm-12  d-md-flex border-right">
-                            <div class="align-self-center text-mobi-center">
+                            <div class="align-self-center text-mobi-center our-solution-content">
                                 <h4>Out of the Box</h4>
                                 <p>Put your very own SnapCode on display to accept mobile payments anywhere you want. No integrations. No admin. Just simple payments in a snap.</p>
                             </div>
@@ -525,9 +525,9 @@
                             </div>
                             <div class="border-right"></div>
                         </div>
-                        <div class="col-md-6 col-12 d-flex prefooter-assist">
+                        <div class="col-md-6 col-12 prefooter-assist">
                             <div class="row no-gutters">
-                                <div class="col-12 col-md-5 align-self-center text-mobi-center offset-md-1">
+                                <div class="col-12 col-md-5 align-self-center text-mobi-center offset-lg-1">
                                     <img src="svgs/img-prefooter-assist.svg" alt="" class="rounded">
                                 </div>
                                 <div class="col-12 col-md-6 align-self-center text-mobi-center">
@@ -547,6 +547,10 @@
             <div class="modal fade sign-up-modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
+                   <button type="button" class="close modal-close position-absolute" data-dismiss="modal" aria-label="Close">
+                      <img src="svgs/icn-close.svg" alt="" class="white">
+                      <img src="svgs/icn-close-action-blue.svg" alt="" class="action-blue">
+                    </button>
                     <div class="row">
                         <div class="col-12 col-lg-7 modal-figure" style="background-image: url(svgs/img-sign-up-illustration.svg)"><img src="svgs/img-sign-up-illustration.svg" alt=""></div>
                         <div class="col-12 col-lg-5 bg-white form-wrapper">
@@ -643,7 +647,7 @@
                             var $carousel = $(this);
                             /* Initializes a slick carousel only on mobile screens */
                             // slick on mobile
-                            if ($(window).width() > 768) {
+                            if ($(window).width() > 767) {
                                 if ($carousel.hasClass('slick-initialized')) {
                                     $carousel.slick('unslick');
                                 }
