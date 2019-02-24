@@ -9,6 +9,8 @@
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="https://use.typekit.net/ofi8vtz.css">
         <link type="text/css" rel="stylesheet" href="css/selectric.css">
+        <link type="text/css" rel="stylesheet" href="css/slick-theme.css">    
+        <link type="text/css" rel="stylesheet" href="css/slick.css">    
         <link type="text/css" rel="stylesheet" href="css/style.css">    
     </head>
 
@@ -394,7 +396,7 @@
                             <p>Get paid quickly and easily with integrated billing options to send statements and invoices to your customers, patients and clients.</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row" id="solution-card-carousel">
                         <div class="col-md-4 col-12 card-wrap">
                             <div class="card">
                               <img class="card-img-top" src="svgs/img-statement.svg" alt="Statement integration">
@@ -627,6 +629,42 @@
         <script type="text/javascript" src="scripts/popper.min.js"></script>
         <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
         <script type="text/javascript" src="scripts/jquery.selectric.js"></script>
+        <script type="text/javascript" src="scripts/slick.js" defer></script>
         <script type="text/javascript" src="scripts/common-scripts.js" defer></script>
+        <script type="text/javascript">
+            (function($){
+                $(function(){
+                    
+                    
+                    
+                     /* Slick needs no get Reinitialized on window Resize after it was destroyed */
+                    $(window).on('load resize orientationchange', function() {
+                        $('#solution-card-carousel').each(function(){
+                            var $carousel = $(this);
+                            /* Initializes a slick carousel only on mobile screens */
+                            // slick on mobile
+                            if ($(window).width() > 768) {
+                                if ($carousel.hasClass('slick-initialized')) {
+                                    $carousel.slick('unslick');
+                                }
+                            }
+                            else{
+                                if (!$carousel.hasClass('slick-initialized')) {
+                                    $carousel.slick({
+                                        slidesToShow: 1,
+                                        slidesToScroll: 1,
+                                        mobileFirst: true,
+                                        dots: false,
+                                        autoplay: true,
+                                        prevArrow: $('.billing-solutions-section .prev-btn'),
+                                        nextArrow: $('.billing-solutions-section .next-btn'),
+                                    });
+                                }
+                            }
+                        });
+                    });
+                })
+            })(jQuery);
+        </script>
     </body>
 </html>
