@@ -186,8 +186,8 @@ img{max-width: 100%;}
 
 /* Promo style */
 .promo-section{padding-top: 56px;}
-.promo-section .content{padding-left: 0}
-.promo-section .content h3{/*padding-top: 70px;*/ margin-bottom: 35px; max-width: 400px;}
+.promo-section .content{padding-left: 0; margin-top: 40px;}
+.promo-section .content h3{ margin-bottom: 35px; max-width: 400px;}
 .promo-section .content p{font-size: 18px; line-height: 28px; max-width: 456px;}
 
 /* Get started section */
@@ -206,20 +206,27 @@ img{max-width: 100%;}
 .get-started-step .content{float: left; width: -webkit-calc(100% - 96px); width: calc(100% - 96px);}
 .get-started-step .content h6{font-size: 20px; line-height: 30px; margin-top: 10px; margin-bottom: 9px;}
 .get-started-step .content p{margin-bottom: 0px;}
-.get-started-step a.btn{margin-top: 20px; width: 390px; float: right; max-width: 100%;}
+.get-started-step a.btn{margin-top: 20px; width: 390px; float: right; max-width: 100%; font-size: 18px;}
 
 /* Our solution section style */
 .our-solution-section{padding-top: 129px; padding-bottom: 82px;}
 .our-solution-section .title-wrap p{font-size: 20px; line-height: 30px;}
+.our-solution-section .our-solution-content{margin-top: -20px;}
 .our-solution-section .our-solution-content h4{margin-bottom: 20px;}
 .card-caousel-section{padding-top: 65px;}
 .our-solution-section .border-right{border-color: #ffffff !important;}
-.our-solution-section .carousel{padding-left: 25px;}
-.our-solution-section .carousel-inner{padding-top: 60px; padding-bottom: 30px;}
+/*.our-solution-section .carousel-wrap{padding-left: 25px;}*/
+.our-solution-section .slick-dotted.slick-slider{margin-bottom: 0; padding-left: 8px;}
+.our-solution-section .slick-list{padding-right: 15px; padding-top: 60px; padding-bottom: 30px;}
+.our-solution-section .card-wrap{max-width: 33%; display: none; padding: 0 0 0 40px;}
+.our-solution-section .card-wrap:nth-child(-n+3){display: block;}
+.our-solution-section .slick-list .card-wrap{max-width: 100%; display: block;}
 .our-solution-section .card-wrap .card{padding: 0 16px; box-shadow: 0 15px 20px 0 rgba(59, 119, 187, 0.2);}
-.our-solution-section .card-wrap:nth-child(odd){margin-top: 70px;}
-.our-solution-section .carousel .card-body{padding-bottom: 35px; padding-top: 30px;}
-.our-solution-section .carousel .card-img-top{margin-top: -36px;}
+.our-solution-section .slick-slide .card-wrap:nth-child(even){margin-top: 0;}
+.our-solution-section .card-wrap:nth-child(even), .our-solution-section .slick-slide:nth-child(even) .card-wrap{margin-top: 70px;}
+.our-solution-section .card-body{padding-bottom: 35px; padding-top: 30px;}
+.our-solution-section .card-img-top{margin-top: -36px;}
+.our-solution-section .controls-top{padding: 0 32px;}
 #solution-card-carousel .card-wrap .card{height: 100%;}
 
 /* carousel button style */
@@ -233,14 +240,14 @@ img{max-width: 100%;}
 /* Point of sale section style */
 .point-of-sale-section{padding-top: 85px;}
 .point-of-sale-section .row:first-child{margin-top: 35px;}
-.point-of-sale-section .row{margin-top: 65px;}
-.point-of-sale-section .row .content{margin-top: -20px;}
-.point-of-sale-section .row:first-child .content{margin-top: -75px;}
+.point-of-sale-section .row{margin-top: 13px;}
+.point-of-sale-section .row .content{margin-bottom: 45px;}
+.point-of-sale-section .row:first-child .content{margin-bottom: 122px;}
 .point-of-sale-section .content h4{margin-bottom: 20px;}
 .point-of-sale-section .content p{max-width: 385px;}
 
 /* Billing solutions section style */
-.billing-solutions-section{padding-top: 100px; padding-bottom: 60px;}
+.billing-solutions-section{padding-top: 68px; padding-bottom: 60px;}
 .billing-solutions-section h4{margin-bottom: 20px;}
 .billing-solutions-section .card-wrap{margin-top: 58px;}
 .billing-solutions-section .card-wrap .body-small{padding: 5px 15px 45px;}
@@ -494,6 +501,7 @@ img{max-width: 100%;}
     
     /* ================== Home page style ==================== */
     .promo-section{padding-top: 48px;}
+    .promo-section .content{margin-top: 0}
     .promo-section .content h3{padding-top: 0; margin-bottom: 30px;}
     .promo-section .content p{margin-bottom: 65px; font-size: 16px;
     line-height: 26px;}
@@ -510,29 +518,32 @@ img{max-width: 100%;}
     .step-icon{margin-right: 15px;}
     
     .our-solution-section{padding-top: 78px; padding-bottom: 125px;}
+    .our-solution-section .container{padding: 0;}
     .our-solution-section .row{margin: 0;}
+    .our-solution-section .col-sm-12{padding: 0;}
     .our-solution-section h2{margin-bottom: 30px;}
-    .our-solution-section .row.card-caousel-section{padding-top: 63px; margin-top: 47px; border-top: 1px solid #ffffff}
+    .our-solution-section .card-caousel-section{padding-top: 0px;}
+    .our-solution-section .our-solution-content{padding-top: 63px; margin-top: 47px; border-top: 1px solid #ffffff}
     .card-caousel-section .border-right{border: 0px solid #ffffff !important;}
-    .our-solution-section .carousel-inner{padding-top: 52px;}
+    .our-solution-section .title-wrap, .our-solution-section .border-right{padding: 0 30px;}
+    .our-solution-section .slick-list{padding-left: 22px; padding-right: 80px; padding-top: 52px;}
+    .our-solution-section .card-wrap{width: 100%;}
     .our-solution-section .card-wrap:nth-child(odd){margin-top: 0;}
-    .our-solution-section .carousel{padding-left: 0;}
+    .our-solution-section .card-wrap, .our-solution-section .card-wrap:nth-child(even), .our-solution-section .slick-slide:nth-child(even) .card-wrap{padding: 0px 22px; margin: 0;}
     .our-solution-section .card-caousel-section .col-md-3 p{font-size: 14px; line-height: 20px;}
     .our-solution-section .card-caousel-section .col-md-3 h4{margin-bottom: 20px;}
-    .our-solution-section .carousel .card-img-top{margin-top: -42px;}
-    .our-solution-section .carousel .card-body{padding-bottom: 40px; padding-top: 0px; }
+    .our-solution-section .card-img-top{margin-top: -42px;}
+    .our-solution-section .card-body{padding-bottom: 40px; padding-top: 0px; }
     
     .controls-top{text-align: right;}
     .point-of-sale-section{padding-top: 0;}
     .shape-wrap img{width: 165%; max-width: 165%;}
     .point-of-sale-section .shape-wrap img{position: relative; right: 65%;}
     .point-of-sale-section .thumbnail-wrap{padding-left: 25px; padding-right: 25px;}
-    .point-of-sale-section .row{margin-top: 75px;}
-    .point-of-sale-section .row:first-child{margin-top: 0;}
-    .point-of-sale-section .row .content{margin-top: 28px;}
-    .point-of-sale-section .row:first-child .content{margin-top: 20px;}
+    .point-of-sale-section .row{margin-top: 70px;}
+    .point-of-sale-section .row:first-child,.point-of-sale-section .row .content,.point-of-sale-section .row:first-child .content{margin: 0;}
     .point-of-sale-section .row:first-child .content-thumb{margin-top: -60px;}
-    .point-of-sale-section .content h4{margin-bottom: 30px;}
+    .point-of-sale-section .content h4{margin-bottom: 25px;}
     .point-of-sale-section .row:first-child .list-wrap{padding-right: 15px;}
     
     .billing-solutions-section{padding-top: 84px; padding-bottom: 45px;}
@@ -541,9 +552,11 @@ img{max-width: 100%;}
     .billing-solutions-section:after{position: absolute; left: 0; right: 0; bottom: 0; height: 325px; content: ""; background-color: #eff5f9; z-index: -1;}
     .billing-solutions-section .shape-wrap{bottom: 323px;}
     .billing-solutions-section h4{margin-bottom: 35px;}
+    #solution-card-carousel{margin-top: 10px;}
     .billing-solutions-section .card-wrap{margin-top: 0; display: none;}
     .billing-solutions-section .card-wrap:first-child,.billing-solutions-section .controls-top{display: block;}
-    .billing-solutions-section .card-wrap .body-small{padding-top: 30px;}
+    .billing-solutions-section .card-wrap .body-small{padding-top: 0px;}
+    .billing-solutions-section .card-title{margin-bottom: 12px;}
     .billing-solutions-section .controls-top{margin-top: 0px; padding: 0 34px;}
     .billing-solutions-section .btn-floating:first-child img{opacity: 0;}
     .billing-solutions-section .btn-floating:first-child img{opacity: 0;}
@@ -733,6 +746,7 @@ img{max-width: 100%;}
     .shown .download-play{display: block;}
     .download-play, .navbar-expand-lg .navbar-nav .nav-link{padding-left: 5px; padding-right: 0;}
     .download-play > a:nth-child(2){margin-left: -7px;}
+    .get-started-step{float: none;}
     
     .hero-section{padding-top: 69px;}
     .hero-bg{min-height: 10px;}
