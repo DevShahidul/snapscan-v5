@@ -20,7 +20,7 @@ body{font-weight: 400; font-size: 16px; line-height: 24px; overflow-x: hidden; f
 
 /* Button style */
 .btn{-webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; transition: all .4s ease-in-out; width: 310px; max-width: 100%; height: 54px; border-radius: 27px; box-shadow: 0 4px 10px 0 rgba(200, 216, 235, 0.8); font-size: 18px; line-height: 52px; text-align: center; color: #ffffff; font-family: proxima-nova, sans-serif; font-weight: 700; border-color: #4a90e2; padding: 0;}
-.btn:focus,.btn:active{box-shadow: 0 15px 20px 0 rgba(0, 80, 160, 0.2) !important; outline: none !important; background-color: #4a90e2 !important; border-color: #4a90e2 !important;}
+.btn:focus,.btn:active{box-shadow: 0 15px 20px 0 rgba(0, 80, 160, 0.2) !important; outline: none !important; background-color: #4a90e2 !important; border-color: #4a90e2 !important; color: #ffffff !important;}
 .btn:hover,.btn.small:hover, .btn.large:hover{box-shadow: 0 10px 15px 0 #cddced; border-color: #4a90e2; color: #ffffff;}
 .btn.large{width: 380px; max-width: 100%; border-radius: 30px; font-size: 20px;}
 .btn.large.white{box-shadow: 0 15px 20px 0 rgba(0, 80, 160, 0.2); border-color: #ffffff; color: #4a90e2;}
@@ -74,7 +74,8 @@ body{font-weight: 400; font-size: 16px; line-height: 24px; overflow-x: hidden; f
 .default-dhadow{box-shadow: 0 15px 20px 0 rgba(59, 119, 187, 0.2)}
 .default-border-radius{border-radius: 10px;}
 .overlay-grey-dark{background-color: rgba(38, 57, 67, .9);}
-.tab-nav{background-color: rgba(74, 144, 226, .1); height: 50px; line-height: 48px; border-radius: 25px 25px 0 0; text-align: center;}
+.tab-nav{background-color: rgba(74, 144, 226, .1); height: 50px; line-height: 48px; border-radius: 25px 25px 0 0; text-align: center; text-decoration: none; font-weight: 700;}
+.tab-nav:hover{text-decoration: none;}
 .tab-link{font-size: 14px; line-height: 24px; background-position: left center; background-repeat: no-repeat; background-size: 20px 20px;}
 .tab-link .icon{width: 20px; height: 20px; float: left; position: relative;}
 .icon img{position: absolute; left: 0; top: 0; -webkit-transition: opacity .3s ease-in; -moz-transition: opacity .3s ease-in; transition: opacity .3s ease-in;}
@@ -371,16 +372,16 @@ img{max-width: 100%;}
 .list-wrapper li a:hover .icon img.active{opacity: 1;}
 
 .accordion-wrap{padding-left: 10px; padding-top: 42px;}
-#accordion .card{background: transparent; border: 0; box-shadow: inset 0 -1px 0 0 #cddced;}
-#accordion .card-header{padding: 0; border: 0; background-color: transparent;}
-#accordion .card-header a{color: #143641; padding: 21px 0; text-align: left; background-image: url(../svgs/icn-arrow-side.svg); background-repeat: no-repeat; background-position: right center; display: block;}
-#accordion .card-header a.collapsed{background-image: url(../svgs/icn-arrow-down.svg);}
-#accordion .card-header a:hover{text-decoration: none;}
-#accordion .card:first-child .card-header a{padding-top: 0;}
-#accordion .card .card-body{padding: 0 40px 43px 0;}
-#accordion .card .list-group{list-style: none; counter-reset: my-awesome-counter;}
-#accordion .card .list-group li{counter-increment: my-awesome-counter; position: relative; padding-left: 25px;}
-#accordion .card .list-group li::before{content: counter(my-awesome-counter) ". "; position: absolute; left: 0; top: 0;}
+.accordion-item-wrap .card{background: transparent; border: 0; box-shadow: inset 0 -1px 0 0 #cddced; border-radius: 0;}
+.accordion-item-wrap .card-header{padding: 0; border: 0; background-color: transparent; border-radius: 0;}
+.accordion-item-wrap .card-header a{color: #143641; padding: 21px 0; text-align: left; background-image: url(../svgs/icn-arrow-side.svg); background-repeat: no-repeat; background-position: right center; display: block;}
+.accordion-item-wrap .card-header a.mdi-chevron-down{background-image: url(../svgs/icn-arrow-down.svg);}
+.accordion-item-wrap .card-header a:hover{text-decoration: none;}
+.accordion-item-wrap .card:first-child .card-header a{padding-top: 0;}
+.accordion-item-wrap .card .card-body{padding: 0 40px 43px 0;}
+.accordion-item-wrap .card .list-group{list-style: none; counter-reset: my-awesome-counter;}
+.accordion-item-wrap .card .list-group li{counter-increment: my-awesome-counter; position: relative; padding-left: 25px;}
+.accordion-item-wrap .card .list-group li::before{content: counter(my-awesome-counter) ". "; position: absolute; left: 0; top: 0;}
 
 .download-our-resources{padding: 101px 0 64px;}
 .download-our-resources .title-wrap{max-width: 445px; margin: 0 auto; clear: both; text-align: center;}
@@ -388,10 +389,13 @@ img{max-width: 100%;}
 .downloadable-contents a{margin-top: 29px; display: inline-block;}
 
 /* Signup modal style */
-.sign-up-modal .modal-dialog{max-width: 1152px;}
-.sign-up-modal .modal-figure{background-position: center; background-size: cover; background-repeat: no-repeat;}
+.sign-up-modal{background-color: #263943;}
+.sign-up-modal .modal-dialog{border-radius: 10px; max-width: 900px; overflow: hidden;}
+.sign-up-modal .modal-figure{background-position: right center; background-size: cover; background-repeat: no-repeat;}
+.sign-up-modal .modal-figure img, .modal-close .white{display: none;}
 .sign-up-modal .signup-form-wrap{box-shadow: none; float: left; padding-top: 81px; padding-bottom: 80px; margin-top: 0;}
-.sign-up-modal .signup-form-wrap h4{margin-top: 37px;}
+.sign-up-modal .signup-form-wrap h4{margin-top: 20px;}
+.modal-close{right: 15px; top: 24px; width: 30px; padding: 5px !important; z-index: 9; opacity: 1;}
 
 
 
@@ -465,7 +469,7 @@ img{max-width: 100%;}
     .container{padding-right: 23px; padding-left: 23px;}
     .hero-bg{height: 58.633%;}
     .hero-heading h1{margin-top: 12px; margin-bottom: 20px;}
-    .signup-form-wrap{margin-top: 225px; padding-left: 30px; padding-right: 33px; float: none; max-width: 100%; padding-top: 25px;}
+    .signup-form-wrap{margin-top: 225px; padding-left: 30px; padding-right: 33px; float: none; max-width: 100%; padding-top: 25px; width: 100%;}
     .signup-form-wrap h4{padding-right: 10px;}
     .signup-form-wrap p:not(.small-text){font-size: 12px; line-height: 15px; margin-top: 30px; margin-bottom: 20px;}
     .small-text{font-size: 10px; line-height: 13px;}
@@ -653,9 +657,18 @@ img{max-width: 100%;}
     .download-our-resources{padding-top: 78px; padding-bottom: 28px;}
     .downloadable-contents{padding-top: 60px;}
     .downloadable-contents a{width: 49%; margin-top: 0;}
+    .downloadable-contents a img{width: 100%;}
     
-    
-    
+    .sign-up-modal .modal-dialog{max-width: 700px; padding: 20px 10px;}
+    .sign-up-modal .modal-dialog .row{margin: 0;}
+    .sign-up-modal .modal-figure{background-image: none !important; padding: 0; display: none;}
+    .sign-up-modal .modal-figure img, .modal-close .white{display: block;}
+    .sign-up-modal .signup-form-wrap{padding: 23px 15px 14px;}
+    .sign-up-modal .signup-form-wrap h4{max-width: 100%;}
+    .sign-up-modal .form-wrapper{border-radius: 10px;}
+    .sign-up-modal .signup-form-wrap > img, .modal-close .action-blue{display: none;}
+    .modal-close{right: 0px; top: -45px; width: 16px; padding: 0px !important; z-index: 9; opacity: 1;}
+
     
     /* Footer style */
     .main-footer{padding-bottom: 35px; padding-top: 55px;}
@@ -696,6 +709,7 @@ img{max-width: 100%;}
     .navbar-nav{margin-top: 45px;}
     .navbar-collapse{max-height: 84vh;}
     .shape{width: 145%;}
+    .sign-up-modal .modal-dialog{padding: 70px 20px;}
     
 }
 
@@ -742,6 +756,14 @@ img{max-width: 100%;}
     .payments-in-snap .card-body{padding-left: 15px; padding-right: 15px;}
     
     
+    .sign-up-modal .modal-dialog{max-width: 700px;}
+    .sign-up-modal .modal-dialog .row{margin: 0;}    
+    .sign-up-modal .modal-figure{background-image: none !important; padding: 0;}
+    .sign-up-modal .modal-figure img{display: block;}
+    .sign-up-modal .signup-form-wrap{width: 100%;}
+    .sign-up-modal .signup-form-wrap h4{max-width: 100%;}
+    
+    
     /* Footer style */
     .main-footer{padding-bottom: 35px; padding-top: 55px;}
     .app-store{margin-right: 10px !important;}
@@ -786,6 +808,7 @@ img{max-width: 100%;}
     .clients-section .container{max-width: 1070px;}
     .payments-in-snap .container{max-width: 1220px;}
     .have-question-section .container{max-width: 970px;}
+    .sign-up-modal .modal-dialog{max-width: 1152px;}
 }
 
 

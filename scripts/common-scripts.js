@@ -55,7 +55,17 @@
             $("body").addClass("snapscan-landing")
         }
        
-		
+        if($(".accordion-item-wrap").length){
+            function toggleChevron(e) {
+              $(e.target)
+                .prev('.card-header')
+                .find("a")
+                .toggleClass('mdi-chevron-down mdi-chevron-up');
+            }
+
+            $('#accordion').on('hidden.bs.collapse', toggleChevron);
+            $('#accordion').on('shown.bs.collapse', toggleChevron);
+		}
 	})// End ready function.
 
 })(jQuery)
