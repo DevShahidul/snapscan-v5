@@ -495,7 +495,7 @@
                         <div class="col-12 col-lg-5 bg-white form-wrapper">
                             <form>
                                 <div class="signup-form-wrap">
-                                    <img src="svgs/logo-snapscan.svg" alt="">
+                                    <img src="svgs/logo-snapscan.svg" alt="" class="modal-logo">
                                     <h4>Sign up for a better way to get paid</h4>
                                     <p><em class="action-blue-color">PS</em> There's a once-off admin fee of R250 per store.</p>
                                     <div class="form-group">
@@ -583,7 +583,7 @@
                         slidesToScroll: 1,
                         mobileFirst: true,
                         dots: false,
-                        autoplay: true,
+                        autoplay: false,
                         prevArrow: $('.our-solution-section .prev-btn'),
                         nextArrow: $('.our-solution-section .next-btn'),
                         responsive: [
@@ -634,7 +634,7 @@
                                         slidesToScroll: 1,
                                         mobileFirst: true,
                                         dots: false,
-                                        autoplay: true,
+                                        autoplay: false,
                                         prevArrow: $('.billing-solutions-section .prev-btn'),
                                         nextArrow: $('.billing-solutions-section .next-btn'),
                                     });
@@ -642,8 +642,51 @@
                             }
                         });
                     });
+                    // End the solutin card carousel
+                    
+                    
+                    if($(window).width() > 1024){
+                        $(".our-solution-section .card-wrap").mousemove(function(e){
+                            var x = e.pageX - this.offsetLeft;
+                            var y = e.pageY - this.offsetTop;
+                            var setHeight = $(this).find(".card").outerHeight();
+                            var setWidth = $(this).find(".card").outerWidth();
+                            $(this).find('.card').css({
+                                'right': x/40+ 'px',
+                                'bottom': y/250+ 'px',
+                            })
+                        })
+
+                        $(".our-solution-section .card-wrap").mouseleave(function(e){
+                            $(this).find('.card').css({
+                                'right': 'auto',
+                                'bottom': 'auto',
+                            })
+                        })
+                    }
+                    
                 })
             })(jQuery);
+            
+            
+             const _getDirection = function (e, item) {
+                  // Width and height of current item
+                  let w = item.offsetWidth;
+                  let h = item.offsetHeight;
+                  let position = _getPosition(item);
+
+                  // Calculate the x/y value of the pointer entering/exiting, relative to the center of the item.
+                  let x = (e.pageX - position.x - (w / 2) * (w > h ? (h / w) : 1));
+                  let y = (e.pageY - position.y - (h / 2) * (h > w ? (w / h) : 1));
+
+                  // Calculate the angle the pointer entered/exited and convert to clockwise format (top/right/bottom/left = 0/1/2/3).  See https://stackoverflow.com/a/3647634 for a full explanation.
+                  let d = Math.round(Math.atan2(y, x) / 1.57079633 + 5) % 4;
+
+                  // console.table([x, y, w, h, e.pageX, e.pageY, item.offsetLeft, item.offsetTop, position.x, position.y]);
+
+                  return d;
+            };
+            
         </script>
     </body>
 </html>

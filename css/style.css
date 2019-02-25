@@ -172,6 +172,7 @@ img{max-width: 100%;}
 .hero-section{position: relative; z-index: 1; padding-bottom: 100px; margin-top: 69px;}
 .hero-bg{width: 100%; height: 100%; background-repeat: no-repeat; background-size: cover; background-position: left 36% bottom; z-index: -5; position: absolute; left: 0; right: 0; top: 0; bottom: 0;}
 .shape{width: 100%; position: absolute; bottom: 0; z-index: -1;}
+.hero-bg .shape{bottom: -1px;}
 .hero-heading h1{margin-bottom: 50px; margin-top: 84px;}
 
 .signup-form-wrap{border-radius: 10px; box-shadow: 0 15px 20px 0 rgba(59, 119, 187, 0.2); margin-top: 70px; padding: 33px 39px 18px; width: 390px; max-width: 100%; float: right;}
@@ -221,7 +222,7 @@ img{max-width: 100%;}
 .our-solution-section .card-wrap{max-width: 33%; display: none; padding: 0 0 0 40px;}
 .our-solution-section .card-wrap:nth-child(-n+3){display: block;}
 .our-solution-section .slick-list .card-wrap{max-width: 100%; display: block;}
-.our-solution-section .card-wrap .card{padding: 0 16px; box-shadow: 0 15px 20px 0 rgba(59, 119, 187, 0.2);}
+.our-solution-section .card-wrap .card{padding: 0 16px; box-shadow: 0 15px 20px 0 rgba(59, 119, 187, 0.2); position: relative;}
 .our-solution-section .slick-slide .card-wrap:nth-child(even){margin-top: 0;}
 .our-solution-section .card-wrap:nth-child(even), .our-solution-section .slick-slide:nth-child(even) .card-wrap{margin-top: 70px;}
 .our-solution-section .card-body{padding-bottom: 35px; padding-top: 30px;}
@@ -304,7 +305,8 @@ img{max-width: 100%;}
 .snapscan-landing .clients-section:before{position: absolute; content: ""; top: -1px; bottom: 150px; left: 0; right: 0; background-color: #eff5f9; z-index: -1;}
 
 /* About page style */
-.payments-in-snap{padding-top: 84px; z-index: 1;}
+.payments-in-snap{padding-top: 153px; z-index: 1;}
+.payments-in-snap .lead-text{padding: 0 10px;}
 .payments-in-snap h2{margin-bottom: 40px;}
 .payments-in-snap .card-wrap{margin-top: 73px; margin-bottom: -70px;}
 .payments-in-snap .card-wrap h6{margin-bottom: 15px;}
@@ -393,6 +395,7 @@ img{max-width: 100%;}
 .sign-up-modal .modal-figure img, .modal-close .white{display: none;}
 .sign-up-modal .signup-form-wrap{box-shadow: none; float: left; padding-top: 81px; padding-bottom: 80px; margin-top: 0;}
 .sign-up-modal .signup-form-wrap h4{margin-top: 20px;}
+.modal-logo{margin-left: -5px;}
 .modal-close{right: 15px; top: 24px; width: 30px; padding: 5px !important; z-index: 9; opacity: 1;}
 
 
@@ -591,7 +594,7 @@ img{max-width: 100%;}
     
     /* Snapscan landing page */
     .how-snapscan-work-content-wrap{margin-top: 0;}
-    .work-step-wrap{margin-top: 130px; height: auto; padding: 0 28px 37px}
+    .work-step-wrap{margin: 130px auto 0; height: auto; padding: 0 28px 37px}
     .how-snapscan-work-content-wrap .col-12:first-child .work-step-wrap{margin-top: 125px;}
     .work-step-wrap > p{font-size: 14px; line-height: 20px;}
     .work-step-wrap .step-wrap{padding: 0 20px;}
@@ -614,6 +617,8 @@ img{max-width: 100%;}
     
     /* About page style */
     .about-contents h3{font-size: 36px; line-height: 44px;}
+    .payments-in-snap{padding-top: 82px;}
+    .payments-in-snap .lead-text{padding: 0;}
     .payments-in-snap h2{margin-bottom: 20px;}
     .payments-in-snap .card-wrap{margin-top: 30px; margin-bottom: 0;}
     .payments-in-snap .card-wrap .card-img-top { width: 117%; max-width: 500%; margin-left: -10%; }
@@ -748,12 +753,12 @@ img{max-width: 100%;}
     .download-play > a:nth-child(2){margin-left: -7px;}
     .get-started-step{float: none;}
     
-    .hero-section{padding-top: 69px;}
     .hero-bg{min-height: 10px;}
     .marchant-hero .hero-bg{background-position: left 30% bottom;}
     
     /* About page */
     .payments-in-snap{padding-top: 150px;}
+    .payments-in-snap .lead-text{padding: 0;}
     .payments-in-snap .card-wrap{padding-left: 10px; padding-right: 10px;}
     .payments-in-snap .card-body{padding-left: 15px; padding-right: 15px;}
     
